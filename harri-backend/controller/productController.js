@@ -63,10 +63,28 @@ module.exports.getShowingProducts = async (req, res, next) => {
 // get all products
 module.exports.getAllProducts = async (req, res, next) => {
   try {
-    const result = await Product.find({});
+    const page = parseInt(req.query.page) || 1; // Default to page 1
+    const limit = parseInt(req.query.limit) || 25; // Default to 10 items per page
+
+    const skip = (page - 1) * limit;
+
+    const [products, totalItems] = await Promise.all([
+      Product.find().skip(skip).limit(limit),
+      Product.countDocuments()
+    ]);
+
+    const totalPages = Math.ceil(totalItems / limit);
+
+    //const result = await Product.find({});
+    
     res.status(200).json({
       success: true,
-      data: result,
+      data: products,
+      meta: {
+        currentPage: page,
+        totalPages: totalPages,
+        totalItems: totalItems
+      }
     });
   } catch (error) {
     next(error);
