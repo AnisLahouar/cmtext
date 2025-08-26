@@ -43,15 +43,14 @@ const Footer = () => {
                   <div className="footer__widget footer__widget-11 mb-50 footer-col-11-1">
                     <div className="footer__logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image src={"/assets/img/logo/logo.png"} width={200} height={70} alt="logo" />
                       </Link>
                     </div>
 
                     <div className="footer__widget-content">
                       <div className="footer__info">
                         <p>
-                          The home and elements needed to create beautiful
-                          products.
+                          STE NMC, située à Jemmel – Monastir, importe et vend des machines à coudre neuves ainsi que des pièces de rechange industrielles.
                         </p>
                         <div className="footer__social footer__social-11">
                           <SocialLinks/>
@@ -80,11 +79,9 @@ const Footer = () => {
                   col_3="3"
                   title="Shop"
                   contents={[
-                    { url: "#", title: "Game & Video" },
-                    { url: "#", title: "Phone &Tablets" },
-                    { url: "#", title: "Computers & Laptop" },
-                    { url: "#", title: "Sport Watches" },
-                    { url: "#", title: "Discounts" },
+                    { url: "#", title: "Jemmel" },
+                    { url: "#", title: "Ksar Helal" },
+                    { url: "#", title: "Sousse" },
                   ]}
                 />
                 <SingleWidget
@@ -113,13 +110,13 @@ const Footer = () => {
                       <div className="footer__contact">
                         <div className="footer__contact-call">
                           <span>
-                            <a href="tel:624-423-26-72">+624 423 26 72</a>
+                            <a href="tel:624-423-26-72">+21698405095</a>
                           </span>
                         </div>
                         <div className="footer__contact-mail">
                           <span>
-                            <a href="mailto:support@harry.com">
-                              support@harry.com
+                            <a href="mailto:ste.mcii@outlook.fr">
+                              ste.mcii@outlook.fr
                             </a>
                           </span>
                         </div>

@@ -36,7 +36,7 @@ const Header = ({ style_2 = false }) => {
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image src={"/assets/img/logo/logo.png"} alt="logo" width={100} height={40} />
                       </Link>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ const Header = ({ style_2 = false }) => {
                               <Search />
                             </a>
                           </li>
-                          {userInfo?.imageURL ? (
+                          {/* {userInfo?.imageURL ? (
                             <li>
                               <Link href="/user-dashboard">
                                 <Image
@@ -105,7 +105,7 @@ const Header = ({ style_2 = false }) => {
                               <Cart />
                               <span className="tp-item-count">{quantity}</span>
                             </button>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="header__hamburger ml-30 d-xl-none">

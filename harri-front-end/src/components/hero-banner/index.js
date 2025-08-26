@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade } from "swiper";
 // internal
-import slider_img_1 from "@assets/img/slider/13/slider-1.png";
-import slider_img_2 from "@assets/img/slider/13/slider-1.png";
-import slider_img_3 from "@assets/img/slider/13/slider-1.png";
+import slider_img_1 from "@assets/img/slider/home/cover2.png";
+import slider_img_2 from "@assets/img/slider/home/cover2.png";
+import slider_img_3 from "@assets/img/slider/home/cover2.png";
 import { RightArrow } from "@svg/index";
 
 const slider_data = [
@@ -15,44 +15,17 @@ const slider_data = [
     id: 1,
     pre_title: (
       <>
-        Best Ear <br /> Headphones
+        Trust!  <br /> Quality!
       </>
     ),
     title: (
       <>
-        Find Best <br /> Matley Sound.
+        MCI INTERNATIONAL  <br /> 
       </>
     ),
     img: slider_img_1,
   },
-  {
-    id: 2,
-    pre_title: (
-      <>
-        Best Ear <br /> Headphones
-      </>
-    ),
-    title: (
-      <>
-        Find your <br /> Beats Studio.
-      </>
-    ),
-    img: slider_img_2,
-  },
-  {
-    id: 3,
-    pre_title: (
-      <>
-        Best Ear <br /> Headphones
-      </>
-    ),
-    title: (
-      <>
-        Music To <br /> Fill Your Heart
-      </>
-    ),
-    img: slider_img_3,
-  },
+  
 ];
 
 const HeroBanner = () => {
@@ -83,14 +56,14 @@ const HeroBanner = () => {
                       </span>
                       <h3 className="slider__title-13">{item.title}</h3>
 
-                      <div className="slider__btn-13 ">
+                      {/* <div className="slider__btn-13 ">
                         <Link href="/shop" className="tp-btn-border">
                           Shop Now
                           <span>
                             <RightArrow />
                           </span>
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6">
@@ -100,6 +73,8 @@ const HeroBanner = () => {
                       <Image
                         src={item.img}
                         alt="slider img"
+                        width={500}
+                        height={500}
                         priority
                       />
                     </div>

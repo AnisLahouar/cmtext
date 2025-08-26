@@ -17,12 +17,12 @@ const ShopBanner = () => {
                 </h3>
                 <p>Last call for up to <span>32%</span> off! </p>
 
-                <div className="banner__btn">
+                {/* <div className="banner__btn">
                   <Link href="/shop" className="tp-btn">
                     Buy Now
                     <RightArrow/>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
