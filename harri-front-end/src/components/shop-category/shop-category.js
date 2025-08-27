@@ -184,7 +184,7 @@ const ShopCategoryArea = () => {
                 </SwiperSlide>
                 <SwiperSlide key={5}>
                   <SingleCategory item={{
-                    parent: "Ancien",
+                    parent: "Occasion",
                     img: "/old.jpeg"
                   }} />
                 </SwiperSlide>
