@@ -15,6 +15,7 @@ const userOrderRoute = require("./routes/userOrderRoute");
 const cloudinaryRoutes = require("./routes/cloudinaryRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const brandRoutes = require("./routes/brandRoutes");
+const path = require("path");
 
 // app init
 const app = express();
@@ -36,9 +37,10 @@ app.use('/api/order', orderRouter);
 app.use('/api/user-order', userOrderRoute);
 app.use("/api/cloudinary", cloudinaryRoutes);
 app.use("/api/admin", adminRoutes);
-
 // root route
 app.get("/", (req, res) => res.send("Apps worked successfully"));
+
+app.use("/images", express.static("uploads"));
 
 const PORT = secret.port || 5000;
 
@@ -56,7 +58,7 @@ app.use((req, res, next) => {
       },
     ],
   });
-  next();
+  // next();
 });
 
 app.listen(PORT, () => console.log(`server running on port ${PORT}`));

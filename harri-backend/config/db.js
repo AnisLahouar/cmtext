@@ -11,6 +11,7 @@ const MONGO_URI = secret.db_url;
 
 const connectDB = async () => {
   try { 
+    console.log('mongodb connection Attempt...');
     await mongoose.connect(MONGO_URI);
     console.log('mongodb connection success!');
   } catch (err) {

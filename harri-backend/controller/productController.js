@@ -50,10 +50,28 @@ module.exports.addAllProducts = async (req, res) => {
 // get all show products
 module.exports.getShowingProducts = async (req, res, next) => {
   try {
-    const result = await Product.find({ status: "active" });
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+
+    const skip = (page - 1) * limit;
+
+    const [products, totalItems] = await Promise.all([
+      Product.find({ status: "active" }).skip(skip).limit(limit),
+      Product.countDocuments()
+    ]);
+
+    const totalPages = Math.ceil(totalItems / limit);
+
+    // const result = await Product.find({ status: "active" })
+
     res.json({
       success: true,
-      products: result,
+      products: products,
+      meta: {
+        currentPage: page,
+        totalPages: totalPages,
+        totalItems: totalItems
+      }
     });
   } catch (error) {
     next(error);
@@ -63,28 +81,31 @@ module.exports.getShowingProducts = async (req, res, next) => {
 // get all products
 module.exports.getAllProducts = async (req, res, next) => {
   try {
-    const page = parseInt(req.query.page) || 1; // Default to page 1
-    const limit = parseInt(req.query.limit) || 25; // Default to 10 items per page
+    const {success, result, meta} =  await paginateProducts(req.query.page, req.query.limit, {});
 
-    const skip = (page - 1) * limit;
+    // const page = parseInt(req.query.page) || 1;
+    // const limit = parseInt(req.query.limit) || 10;
 
-    const [products, totalItems] = await Promise.all([
-      Product.find().skip(skip).limit(limit),
-      Product.countDocuments()
-    ]);
+    // const skip = (page - 1) * limit;
 
-    const totalPages = Math.ceil(totalItems / limit);
+    // const [products, totalItems] = await Promise.all([
+    //   Product.find().skip(skip).limit(limit),
+    //   Product.countDocuments()
+    // ]);
+
+    // const totalPages = Math.ceil(totalItems / limit);
 
     //const result = await Product.find({});
-    
+
     res.status(200).json({
-      success: true,
-      data: products,
-      meta: {
-        currentPage: page,
-        totalPages: totalPages,
-        totalItems: totalItems
-      }
+      success: success,
+      data: result,
+      meta: meta,
+      // meta: {
+      //   currentPage: page,
+      //   totalPages: totalPages,
+      //   totalItems: totalItems
+      // }
     });
   } catch (error) {
     next(error);
@@ -164,3 +185,35 @@ exports.updateProduct = async (req, res, next) => {
     next(error);
   }
 };
+
+
+async function paginateProducts(
+  inPage, inLimit, inPredicat
+) {
+  try {
+    const page = parseInt(inPage) || 1;
+    const limit = parseInt(inLimit) || 10;
+
+    const skip = (page - 1) * limit;
+
+    const [products, totalItems] = await Promise.all([
+      Product.find(inPredicat).skip(skip).limit(limit),
+      Product.countDocuments()
+    ]);
+
+    const totalPages = Math.ceil(totalItems / limit);
+
+    return {
+      success: true,
+      result: products,
+      meta: {
+        currentPage: page,
+        totalPages: totalPages,
+        totalItems: totalItems
+      }
+    }
+  } catch (err) {
+    console.log(`ERROR: ${err.message}`)
+    throw err;
+  }
+}
