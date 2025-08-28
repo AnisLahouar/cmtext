@@ -117,7 +117,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b12d",
     sku: "29045-SB-3",
-    title: "Brother Model ",
+    title: "Brother Model A",
     parent: "Ipad Phone & Tablets",
     children: "tablet",
     tags: [
