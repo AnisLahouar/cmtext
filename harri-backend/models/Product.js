@@ -26,7 +26,7 @@ const productSchema = mongoose.Schema({
   image: {
     type: String,
     required: true,
-    validate: [valid.isURL, "wrong url"]
+    // validate: [valid.isURL, "wrong url"]
   },
   originalPrice: {
     type: Number,
@@ -47,7 +47,7 @@ const productSchema = mongoose.Schema({
   relatedImages: [{
     type: String,
     required: false,
-    validate: [valid.isURL, "wrong url"]
+    // validate: [valid.isURL, "wrong url"]
   }],
   description: {
     type: String,

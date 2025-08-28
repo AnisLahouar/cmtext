@@ -2,38 +2,32 @@ const brands = [
   {
     _id: "64b7735fae177ed4d70fb5c3",
     logo: "https://i.ibb.co/Ydf3C1H/brand-1.png",
-    name: "Logitech",
-    description: "Logitech Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
-    email: "logitech@gmail.com",
-    website: "logitech.com",
+    name: "ASS",
+    description: "ASS Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
+    email: "ASS@gmail.com",
+    website: "ASS.com",
     location: "Apples, Switzerland",
     status: "active",
     products: [
-      "63cca6791510c67feb3c0039",
-      "63cca6791510c67feb3c003a",
-      "63cca6791510c67feb3c003b",
-      "63cca6791510c67feb3c003c",
-      "63cca6791510c67feb3c0053",
-      "64b8ed89f2df046d6b270292"
+      "64b78b80cf982ba18a26b13e",
     ]
   },
   {
     _id: "64b7735fae177ed4d70fb5c7",
     logo: "https://i.ibb.co/xqTCvsL/brand-5.png",
-    name: "Deepcool",
-    description: "Deepcool Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
-    email: "deepcool@gmail.com",
-    website: "deepcool.com",
+    name: "Brother",
+    description: "brother Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
+    email: "brother@gmail.com",
+    website: "brother.com",
     location: "Deepcool, US",
     status: "active",
     products: [
-      "63cca6791510c67feb3c004d",
-      "63cca6791510c67feb3c004e",
-      "63cca6791510c67feb3c004f",
-      "63cca6791510c67feb3c0050",
-      "63cca6791510c67feb3c0051",
-      "63cca6791510c67feb3c0052",
-      "64b8f29df2df046d6b27029f"
+      "64b78b80cf982ba18a26b12c",
+      "64b78b80cf982ba18a26b12d",
+      "64b78b80cf982ba18a26b130",
+      "64b78b80cf982ba18a26b138",
+      "64b78b80cf982ba18a26b13f",
+      "64b78b80cf982ba18a26b145",
     ]
   },
   {
@@ -44,7 +38,7 @@ const brands = [
     email: "apple@gmail.com",
     website: "apple.com",
     location: "Apple, US",
-    status: "active",
+    status: "inActive",
     products: [
       "63cca6791510c67feb3c0046",
       "63cca6791510c67feb3c0047",
@@ -59,18 +53,16 @@ const brands = [
   {
     _id: "64b7735fae177ed4d70fb5c4",
     logo: "https://i.ibb.co/GTzWqnP/brand-2.png",
-    name: "Sony",
-    description: "Sony Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
-    email: "sony@gmail.com",
-    website: "sony.com",
+    name: "Juki",
+    description: "Juki Business Support. Top Articles. Top Articles. Find Your Product. Search for your product by name, model number or part number.",
+    email: "Juki@gmail.com",
+    website: "Juki.com",
     location: "Apples, America",
     status: "active",
     products: [
-      "63cca6791510c67feb3c003d",
-      "63cca6791510c67feb3c003e",
-      "63cca6791510c67feb3c003f",
-      "63cca6791510c67feb3c0040",
-      "63cca6791510c67feb3c0041"
+      "64b78b80cf982ba18a26b13a",
+      "64b78b80cf982ba18a26b13b",
+      "64b78b80cf982ba18a26b141",
     ]
   },
   {
@@ -81,7 +73,7 @@ const brands = [
     email: "samsung@gmail.com",
     website: "samsung.com",
     location: "Samsung, US",
-    status: "active",
+    status: "inActive",
     products: [
       "63cca6791510c67feb3c0042",
       "63cca6791510c67feb3c0043",

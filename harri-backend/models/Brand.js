@@ -31,7 +31,7 @@ const brandSchema = mongoose.Schema({
   location: String,
   status: {
     type: String,
-    enum: ["active", "inactive"],
+    enum: ["active", "inActive"],
     default: "active"
   },
   products: [{

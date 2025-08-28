@@ -2,27 +2,26 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b13b",
     sku: "29045-SC-5",
-    title: "Microsoft's Surface Hub 2S",
+    title: "Juki Model 1",
     parent: "Computers Monitor & Laptop",
     children: "monitor",
     tags: [
-      "Microsoft",
-      "Surface",
-      "Hub"
+      "Juki",
+      "Machine",
     ],
-    image: "https://i.ibb.co/KjVfq5j/product-17.jpg",
+    image: "http://localhost:5000/images/juki-1.jpg",
     originalPrice: 799,
     price: 799,
     discount: 3,
     relatedImages: [
-      "https://i.ibb.co/KjVfq5j/product-17.jpg",
-      "https://i.ibb.co/Fn76XBt/product-rel-17-1.jpg",
-      "https://i.ibb.co/q5tWD7B/product-rel-17-2.jpg",
-      "https://i.ibb.co/7Y8dxKZ/product-rel-17-3.jpg"
+      "http://localhost:5000/images/juki-1.jpg",
+      "http://localhost:5000/images/juki-2.jpeg",
+      "http://localhost:5000/images/juki-3.jpeg",
+      "http://localhost:5000/images/juki-4.jpeg",
     ],
     description: "Sleek, slim design with the thinnest edge and bezel of any device in its class1 A brilliant 4K+ screen, 4K camera, and enhanced speakers and mics A great platform for Microsoft Teams and Skype for Business2 Next-level brainstorming, with Microsoft Whiteboard, a persistent digital canvas Sign in to access OneDrive files or project content wirelessly with Miracast Interact naturally with Surface Hub 2 Pen3 and touch functionality Fully integrated Windows 10 device: natively-run, must-have Microsoft and third-party apps Experience mobile, cordless teamwork with Steelcase Roam™ mobile stand and APC™ Charge Mobile Battery*",
     brand: {
-      name: "Sony",
+      name: "Juki",
       id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
@@ -42,7 +41,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b13e",
     sku: "29045-SC-8",
-    title: "Dualshock 4 Wireless Controller",
+    title: "Machine Model ASS",
     parent: "Wireless & Watches",
     children: "wireless",
     tags: [
@@ -50,19 +49,18 @@ const products = [
       "Controller",
       "Dualshock"
     ],
-    image: "https://i.ibb.co/5FGVYm3/product-20.jpg",
+    image: "http://localhost:5000/images/ASS-1.jpeg",
     originalPrice: 79,
     price: 79,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/5FGVYm3/product-20.jpg",
-      "https://i.ibb.co/QmrC1Wx/product-rel-20-3.jpg",
-      "https://i.ibb.co/7C70Fk1/product-rel-20-1.jpg",
-      "https://i.ibb.co/QdbqNs2/product-rel-20-2.jpg"
+      "http://localhost:5000/images/ASS-1.jpeg",
+      "http://localhost:5000/images/ASS-2.jpeg",
+      "http://localhost:5000/images/ASS-3.jpeg",
     ],
     description: "This refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, and may arrive in a generic box",
     brand: {
-      name: "Logitech",
+      name: "ASS",
       id: "64b7735fae177ed4d70fb5c3"
     },
     category: {
@@ -81,26 +79,24 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b12c",
     sku: "29045-SB-2",
-    title: "Apple Watch Series 8",
+    title: "Brother Model 1",
     parent: "Wireless & Watches",
     children: "watch",
     tags: [
       "Watch",
       "Apple"
     ],
-    image: "https://i.ibb.co/F3hPQMP/product-2.jpg",
+    image: "http://localhost:5000/images/brother-1.jpg",
     originalPrice: 188,
     price: 188,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/F3hPQMP/product-2.jpg",
-      "https://i.ibb.co/rfjqtKv/product-rel-2-1.jpg",
-      "https://i.ibb.co/Q89k5Jq/product-rel-2-2.jpg",
-      "https://i.ibb.co/72h2zSp/product-rel-2-3.jpg"
+      "http://localhost:5000/images/brother-1.jpg",
+      "http://localhost:5000/images/brother-2.jpeg",
     ],
     description: "The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy.The Sport Loop is made from a soft and breathable double-layer nylon weave, with a hook-and-loop fastener for quick and easy adjustment.",
     brand: {
-      name: "Sony",
+      name: "brother",
       id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
@@ -121,27 +117,25 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b12d",
     sku: "29045-SB-3",
-    title: "TECLAST Tablet Protective Cover Case",
+    title: "Brother Model ",
     parent: "Ipad Phone & Tablets",
     children: "tablet",
     tags: [
       "Tablet",
       "TECLAST"
     ],
-    image: "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    image: "http://localhost:5000/images/brotherA-1.jpg",
     originalPrice: 899,
     price: 899,
     discount: 12,
     relatedImages: [
-      "https://i.ibb.co/FhzmCxJ/product-3.jpg",
-      "https://i.ibb.co/1XMnN9N/product-rel-3-3.jpg",
-      "https://i.ibb.co/nctKTQn/product-rel-3-2.jpg",
-      "https://i.ibb.co/3z9WypX/product-rel-3-1.jpg"
+      "http://localhost:5000/images/brotherA-1.jpg",
+      "http://localhost:5000/images/brotherA-2.jpg",
     ],
     description: "Applicable Model: Tablet leather case is custom-made for TECLAST M40 Pro 10/10.1 inch tablet Hole Position Design: Full Protection while staying lightweight and portable, allow full access to all features (buttons, speakers, cameras). Stable Stand : With anti-drop and anti-vibration flip case cover tablet stand, you can stand the tablet up at angles for the best reading, watching movies, viewing and typing experience Magnetic Expandibility: Case is embeded with a lining of magnets to pair with accessories for expanded function Premium Materials: Made from high quality PU Leather, gives a smooth delicate texture on the outside and shock absorption on the inside, soft interior never scratches or hurts your screen",
     brand: {
-      name: "Samsung",
-      id: "64b7735fae177ed4d70fb5c5"
+      name: "brother",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Ipad Phone & Tablets",
@@ -161,7 +155,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b130",
     sku: "29045-SB-6",
-    title: "ViewSonic Professional Monitor",
+    title: "Brother Model B",
     parent: "Computers Monitor & Laptop",
     children: "monitor",
     tags: [
@@ -169,20 +163,19 @@ const products = [
       "Monitor",
       "Computer"
     ],
-    image: "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    image: "http://localhost:5000/images/brotherB-1.jpg",
     originalPrice: 299,
     price: 299,
     discount: 6,
     relatedImages: [
-      "https://i.ibb.co/ncm9NFx/product-6.jpg",
-      "https://i.ibb.co/y6w6TkJ/product-rel-6-1.jpg",
-      "https://i.ibb.co/BP1Y7XK/product-rel-6-2.jpg",
-      "https://i.ibb.co/WxXmTNt/product-rel-6-3.jpg"
+      "http://localhost:5000/images/brotherB-1.jpg",
+      "http://localhost:5000/images/brotherB-2.jpg",
+      "http://localhost:5000/images/brotherB-3.jpg",
     ],
     description: "Designed with creative professionals in mind, the ViewSonic VP2756-2k delivers stunning true-to-life colours on screen. Pantone validated 100% sRGB coverage provides precise colour reproduction, ensuring your work looks how it should, every time. A USB-C port that easily connects with your devices for easy charging and data transfer. Ergonomic engineering gives you the flexibility to do more without injury, while Auto Pivot lets shift between horizontal and vertical orientations effortlessly, letting your work be viewed how it’s supposed to be.​",
     brand: {
-      name: "Logitech",
-      id: "64b7735fae177ed4d70fb5c3"
+      name: "brother",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Computers Monitor & Laptop",
@@ -202,7 +195,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b138",
     sku: "29045-SC-2",
-    title: "Apple iPhone 13 Pro Max",
+    title: "Brother Model C",
     parent: "Ipad Phone & Tablets",
     children: "phone",
     tags: [
@@ -210,20 +203,18 @@ const products = [
       "Apple",
       "Phone"
     ],
-    image: "https://i.ibb.co/chbrFCn/product-14.jpg",
+    image: "http://localhost:5000/images/brotherC-1.jpeg",
     originalPrice: 1660,
     price: 1660,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/chbrFCn/product-14.jpg",
-      "https://i.ibb.co/khwnyH4/product-rel-14-1.jpg",
-      "https://i.ibb.co/ZKXqvXH/product-rel-14-2.jpg",
-      "https://i.ibb.co/0hMKtrT/product-rel-14-3.jpg"
+      "http://localhost:5000/images/brotherC-1.jpeg",
+      "http://localhost:5000/images/brotherC-2.jpeg",
     ],
     description: "Apple iPhone 13 Pro is the first from the company to get ProMotion 120Hz display. It also features a 6.1-inch Super Retina OLED display, powered by new A15 Bionic chip with 6GB RAM and offers 256GB storage. The triple cameras have gotten much better thanks to bigger sensors on board. The battery life sees a big improvement as well. However, the model comes without headphone jack, memory card slot and 20W fast charging is not sufficient for the price. Get the new iPhone 13 Pro for its improved screen, cameras and battery but you have to pay a premium for it.​",
     brand: {
-      name: "Apple",
-      id: "64b7735fae177ed4d70fb5c6"
+      name: "brother",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Ipad Phone & Tablets",
@@ -243,7 +234,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b13f",
     sku: "29045-SD-1",
-    title: "Bluetooth speaker with light",
+    title: "Brother Model D",
     parent: "Camera Bluetooth & Headset",
     children: "bluetooth",
     tags: [
@@ -251,21 +242,19 @@ const products = [
       "Speaker",
       "Night Light"
     ],
-    image: "https://i.ibb.co/zJnrwrK/product-21.jpg",
+    image: "http://localhost:5000/images/brotherD-1.jpg",
     originalPrice: 89,
     price: 89,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/zJnrwrK/product-21.jpg",
-      "https://i.ibb.co/TMPjtFq/product-rel-21-1.jpg",
-      "https://i.ibb.co/fvC40Qt/product-rel-21-2.jpg",
-      "https://i.ibb.co/8BfKR1r/product-rel-21-3.jpg",
-      "https://i.ibb.co/cLbzchR/product-rel-21-4.jpg"
+      "http://localhost:5000/images/brotherD-1.jpg",
+      "http://localhost:5000/images/brotherD-2.jpg",
+      "http://localhost:5000/images/brotherD-3.jpg"
     ],
     description: "Super Multifunction: Best gift for all festivals! Touch Control Night Light + Bluetooth Speaker + MP3 Player + Digital Alarm Clock Compatible with all bluetooth devices Support flash drive micro SD card input 3 level brightness adjustable with the cool touch sensor design warm led night light can provide a comfortable environment create for you. Bluetooth 4.0 Hi-Fi Speaker: Easily connected with most bluetooth devices, 33Ft bluetooth range. With the help of a powerful woofer and unique bass technology, you can enjoy Super Quality Sound.",
     brand: {
-      name: "Deepcool",
-      id: "64b7735fae177ed4d70fb5c7"
+      name: "brother",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Camera Bluetooth & Headset",
@@ -286,28 +275,25 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b145",
     sku: "29045-SD-7",
-    title: "HP Reverb G2 VR Headset",
+    title: "Brother Model E",
     parent: "Camera Bluetooth & Headset",
     children: "headset",
     tags: [
       "HP",
       "Headset"
     ],
-    image: "https://i.ibb.co/2ZZ6hxW/product-27.jpg",
+    image: "http://localhost:5000/images/brotherE-1.jpg",
     originalPrice: 999,
     price: 999,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/2ZZ6hxW/product-27.jpg",
-      "https://i.ibb.co/hgXyFqZ/product-rel-27-3.jpg",
-      "https://i.ibb.co/wz2WLCH/product-rel-27-4.jpg",
-      "https://i.ibb.co/B6K9HDD/product-rel-27-1.jpg",
-      "https://i.ibb.co/gVCmxLf/product-rel-27-2.jpg"
+      "http://localhost:5000/images/brotherE-1.jpg",
+      "http://localhost:5000/images/brotherE-2.jpg"
     ],
     description: "The no-compromise VR headset. Realistic visuals. Immersive soundscapes. Superb tracking and performance. Developed in collaboration with Valve and Microsoft, our breakthrough headset delivers a more immersive experience.[1] Ergonomically designed for comfort. Optimized for compatibility. Introducing the new standard in VR.",
     brand: {
-      name: "Apple",
-      id: "64b7735fae177ed4d70fb5c6"
+      name: "brother",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Camera Bluetooth & Headset",
@@ -325,7 +311,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b13a",
     sku: "29045-SC-4",
-    title: "Apple iPad mini",
+    title: "Juki Model B",
     parent: "Ipad Phone & Tablets",
     children: "iPad",
     tags: [
@@ -333,20 +319,18 @@ const products = [
       "iPad",
       "Mini"
     ],
-    image: "https://i.ibb.co/SBx55HB/product-16.jpg",
+    image: "http://localhost:5000/images/jukiB-1.jpg",
     originalPrice: 887,
     price: 887,
     discount: 0,
     relatedImages: [
-      "https://i.ibb.co/SBx55HB/product-16.jpg",
-      "https://i.ibb.co/gySZN6f/product-rel-16-1.jpg",
-      "https://i.ibb.co/2nFyx9f/product-rel-16-2.jpg",
-      "https://i.ibb.co/6RqsZRp/product-rel-16-3.jpg"
+      "http://localhost:5000/images/jukiB-1.jpg",
+      "http://localhost:5000/images/jukiB-2.jpg",
     ],
     description: "21.08 cm (8.3-inch) Liquid Retina display with True Tone and wide colour A15 Bionic chip with NeuralEngine Touch ID for secure authentication 12MP Wide back camera, 12MP Ultra Wide front camera with Centre Stage Available in purple, starlight, pink and space grey Landscape stereo speakers Stay connected with ultra-fast Wi-Fi 6",
     brand: {
-      name: "Logitech",
-      id: "64b7735fae177ed4d70fb5c3"
+      name: "Juki",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Ipad Phone & Tablets",
@@ -366,7 +350,7 @@ const products = [
   {
     _id: "64b78b80cf982ba18a26b141",
     sku: "29045-SD-3",
-    title: "Cougar Gaming Case (Conquer)",
+    title: "Juki Model A",
     parent: "Computers Monitor & Laptop",
     children: "computer",
     tags: [
@@ -374,21 +358,19 @@ const products = [
       "Gaming",
       "Cougar"
     ],
-    image: "https://i.ibb.co/mCKTs61/product-23.jpg",
+    image: "http://localhost:5000/images/jukiA-1.jpeg",
     originalPrice: 599,
     price: 599,
     discount: 15,
     relatedImages: [
-      "https://i.ibb.co/mCKTs61/product-23.jpg",
-      "https://i.ibb.co/7yvNhQS/product-rel-23-2.jpg",
-      "https://i.ibb.co/z8JJtJN/product-rel-23-3.jpg",
-      "https://i.ibb.co/4tKmcCH/product-rel-23-4.jpg",
-      "https://i.ibb.co/5YYB2jG/product-rel-23-1.jpg"
+      "http://localhost:5000/images/jukiA-1.jpeg",
+      "http://localhost:5000/images/jukiA-2.jpg",
+      "http://localhost:5000/images/jukiA-3.jpg",
     ],
     description: "Conquer's unique aluminum framing design breaks away from traditional cases. It provides an easy way to build and modify the case. With its superior expandability, modders will have unprecedented levels of freedom to create a dream case beyond imagination.",
     brand: {
-      name: "Samsung",
-      id: "64b7735fae177ed4d70fb5c5"
+      name: "Juki",
+      id: "64b7735fae177ed4d70fb5c4"
     },
     category: {
       name: "Computers Monitor & Laptop",
@@ -445,7 +427,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "latest-product",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b12b",
@@ -485,7 +467,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b131",
@@ -526,7 +508,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b133",
@@ -566,7 +548,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b144",
@@ -609,7 +591,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "latest-product",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b12f",
@@ -649,7 +631,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b132",
@@ -689,7 +671,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b135",
@@ -730,7 +712,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b142",
@@ -772,7 +754,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "latest-product",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b134",
@@ -813,7 +795,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b137",
@@ -853,7 +835,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "best-selling",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b13d",
@@ -892,7 +874,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "best-selling",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b12e",
@@ -931,7 +913,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b136",
@@ -971,7 +953,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "top-rated",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b139",
@@ -1011,7 +993,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "best-selling",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b13c",
@@ -1051,7 +1033,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "best-selling",
-    status: "active"
+    status: "inActive"
   },
   {
     _id: "64b78b80cf982ba18a26b140",
@@ -1093,7 +1075,7 @@ const products = [
     ],
     type: "Electric",
     itemInfo: "latest-product",
-    status: "active"
+    status: "inActive"
   }
 ]
 

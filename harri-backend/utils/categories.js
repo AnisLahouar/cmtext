@@ -1,7 +1,7 @@
 const category = [
   {
     _id: "63a9a063d283e1a02a2a6af9",
-    parent: "Planer & Virtual",
+    parent: "Machine-A",
     img: "https://i.ibb.co/58zCBkK/product-cat-2.jpg",
     children: [
       "planer",
@@ -16,7 +16,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6afd",
-    parent: "Spinning Reel & Kettle",
+    parent: "Machine-B",
     img: "https://i.ibb.co/7Y7RjMq/product-cat-6.jpg",
     children: [
       "spinning-reel",
@@ -31,7 +31,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6afb",
-    parent: "Computers Monitor & Laptop",
+    parent: "Machine-C",
     img: "https://i.ibb.co/p004GJX/product-cat-4.jpg",
     children: [
       "computer",
@@ -48,7 +48,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6afc",
-    parent: "Exercise Bike & Shaver Clean",
+    parent: "Machine-D",
     img: "https://i.ibb.co/ydM73jB/product-cat-5.jpg",
     children: [
       "exercise-bike",
@@ -62,7 +62,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6afa",
-    parent: "Wireless & Watches",
+    parent: "Machine-E",
     img: "https://i.ibb.co/QHTxCfc/product-cat-3.jpg",
     children: [
       "wireless",
@@ -78,7 +78,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6afe",
-    parent: "Camera Bluetooth & Headset",
+    parent: "Machine-F",
     img: "https://i.ibb.co/9hsZsq3/product-cat-7.jpg",
     children: [
       "camera",
@@ -97,7 +97,7 @@ const category = [
   },
   {
     _id: "63a9a063d283e1a02a2a6af8",
-    parent: "Ipad Phone & Tablets",
+    parent: "Machine-G",
     img: "https://i.ibb.co/zfTZRSf/product-cat-1.jpg",
     children: [
       "phone",
