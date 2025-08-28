@@ -92,7 +92,7 @@ const SingleProduct = ({ product, discountPrd = false }) => {
             </button>
             </Link>
           </div>
-          <div className="product__add transition-3">
+          {/* <div className="product__add transition-3">
             {isAddedToCart ? (
               <Link
                 href="/cart"
@@ -112,13 +112,13 @@ const SingleProduct = ({ product, discountPrd = false }) => {
                 Add to Cart
               </button>
             )}
-          </div>
+          </div> */}
         </div>
         <div className="product__content">
           <h3 className="product__title">
             <Link href={`/product-details/${_id}`}>{title}</Link>
           </h3>
-          {discount <= 0 && (
+          {/* {discount <= 0 && (
             <div className="product__price">
               <span className="product__ammount">
                 ${originalPrice.toFixed(2)}
@@ -127,7 +127,7 @@ const SingleProduct = ({ product, discountPrd = false }) => {
           )}
           {discount > 0 && (
             <OldNewPrice originalPrice={originalPrice} discount={discount} />
-          )}
+          )} */}
         </div>
       </div>
     </React.Fragment>

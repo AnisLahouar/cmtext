@@ -111,17 +111,17 @@ const ProductModal = () => {
                 orders $35+ or Pickup In-store and get
               </p>
               {/* Price */}
-              <OldNewPrice
+              {/* <OldNewPrice
                 originalPrice={originalPrice}
                 discount={discount}
-              />
+              /> */}
               {/* Price */}
 
               {/* quantity */}
-              <Quantity />
+              {/* <Quantity /> */}
               {/* quantity */}
               <div className="product__details-action d-flex flex-wrap align-items-center">
-                <button
+                {/* <button
                   onClick={() => handleAddProduct(product)}
                   type="button"
                   className="product-add-cart-btn product-add-cart-btn-3"
@@ -147,7 +147,7 @@ const ProductModal = () => {
                       Product Details
                     </span>
                   </button>
-                </Link>
+                </Link> */}
               </div>
               <div className="product__details-sku product__details-more">
                 <p>SKU:</p>

@@ -59,7 +59,7 @@ const OfferPopularProduct = () => {
 
   return (
     <section className="product__coupon-area porduct__offer pt-120">
-      <div className="container">
+      {/* <div className="container">
         <div className="row align-items-end">
           <div className="col-xl-6 col-md-6">
             <div className="section__title-wrapper-13 mb-35">
@@ -78,7 +78,7 @@ const OfferPopularProduct = () => {
         <div className="product__coupon-area pb-120">
           <div className="container">{content}</div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

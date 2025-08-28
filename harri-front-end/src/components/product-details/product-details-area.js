@@ -82,9 +82,9 @@ const ProductDetailsArea = ({ product }) => {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="product__details-wrapper">
-              <div className="product__details-stock">
+              {/* <div className="product__details-stock">
                 <span>{quantity} In Stock</span>
-              </div>
+              </div> */}
               <h3 className="product__details-title">{title}</h3>
 
               <p className="mt-20">
@@ -93,14 +93,14 @@ const ProductDetailsArea = ({ product }) => {
               </p>
 
               {/* Product Details Price */}
-              <ProductDetailsPrice price={originalPrice} discount={discount} />
+              {/* <ProductDetailsPrice price={originalPrice} discount={discount} /> */}
               {/* Product Details Price */}
 
               {/* quantity */}
-              <ProductQuantity />
+              {/* <ProductQuantity /> */}
               {/* quantity */}
 
-              <div className="product__details-action d-flex flex-wrap align-items-center">
+              {/* <div className="product__details-action d-flex flex-wrap align-items-center">
                 <button
                   onClick={() => handleAddProduct(product)}
                   type="button"
@@ -121,7 +121,7 @@ const ProductDetailsArea = ({ product }) => {
                     Add To Wishlist
                   </span>
                 </button>
-              </div>
+              </div> */}
               <div className="product__details-sku product__details-more">
                 <p>SKU:</p>
                 <span>{sku}</span>
